@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+	  "esModuleInterop": true,
 	  "outDir": "./deploy",
 	  "module": "CommonJS",
 	  "target": "ES2017",
@@ -10,6 +11,7 @@
 	  "strictNullChecks": true,
 	  "allowJs": true,
 	  "moduleResolution": "node",
-		  "skipLibCheck": true
+	  "skipLibCheck": true,
+	  "strict": true
 	}
 }
